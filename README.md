@@ -10,7 +10,7 @@ This is simplest using a cloud-only global admin account without MFA but using C
 
 In my testing it worked fine with my global admin account with MFA but required more interaction than I wanted.
 
-This script uses some of the Microsoft 365 DSC script components. The DSC is very helpful especially if you need to document tenant settings. And it doesn’t cost anything which is a bonus.
+This script uses some of the Microsoft 365 DSC (microsoft/Microsoft365DSC on github) script components. The DSC is very helpful especially if you need to document tenant settings. And it doesn’t cost anything which is a bonus.
 
 This script is really very basic and not the most elegant as far as code goes but it will do the following:
  1. Set some variables and ask for your tenant domain in the format domain.onmicrosoft.com
